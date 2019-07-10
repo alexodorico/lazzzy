@@ -1,0 +1,23 @@
+{
+  "name": "lazzzy",
+  "version": "0.1.0",
+  "description": "Automatically lazy load images inserted into the DOM",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexodorico/lazzzy.git"
+  },
+  "keywords": [
+    "lazy",
+    "load",
+    "intersection",
+    "mutation",
+    "observer"
+  ],
+  "author": "Alex Odorico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexodorico/lazzzy/issues"
+  },
+  "homepage": "https://github.com/alexodorico/lazzzy#readme"
+}
