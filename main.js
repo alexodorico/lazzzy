@@ -1,4 +1,4 @@
-function lazzzy(elementId, className = "lazy") {
+const lazzzy = (elementId, className = "lazy") => {
   const targetNode = document.getElementById(elementId);
   const config = { subtree: true, childList: true };
   const callback = (mutationsList, observer) => {
@@ -42,3 +42,5 @@ function lazyLoadSetUp(className = "lazy") {
     lazyImageObserver.observe(lazyImage);
   });
 }
+
+export default lazzzy;
