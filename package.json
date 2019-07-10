@@ -1,6 +1,6 @@
 {
   "name": "lazzzy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Automatically lazy load images inserted into the DOM",
   "main": "main.js",
   "repository": {
