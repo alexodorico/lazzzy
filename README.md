@@ -13,3 +13,7 @@ import lazzzy from 'lazzzy';
 
 lazzzy("elementId", "className")
 ```
+
+Images need to have a `data-src` attribute as well. This should be URL of the image being lazy loaded
+
+`<img src="path/to/placeholder.jpg" data-src="path/to/image.jpg">`
